@@ -1,0 +1,81 @@
+{
+  "skills": [
+    {
+      "category": "Frontend",
+      "skills": [
+        { "skill": "JavaScript", "level": "Avanzado" },
+        { "skill": "Vue.js", "level": "Avanzado" },
+        { "skill": "TypeScript", "level": "Intermedio" },
+        { "skill": "React", "level": "Intermedio" },
+        { "skill": "Bootstrap", "level": "Avanzado" },
+        { "skill": "jQuery", "level": "Avanzado" },
+        { "skill": "PrimeVue", "level": "Intermedio" },
+        { "skill": "Axios", "level": "Intermedio" }
+      ]
+    },
+    {
+      "category": "Backend",
+      "skills": [
+        { "skill": "PHP", "level": "Intermedio" },
+        { "skill": "Java", "level": "Intermedio" },
+        { "skill": "C++", "level": "Intermedio" },
+        { "skill": "Spring Boot", "level": "Intermedio" }
+      ]
+    },
+    {
+      "category": "Databases",
+      "skills": [
+        { "skill": "SQL", "level": "Avanzado" },
+        { "skill": "PostgreSQL", "level": "Intermedio" },
+        { "skill": "MySQL", "level": "Intermedio" }
+      ]
+    },
+    {
+      "category": "Deployment Tools",
+      "skills": [
+        {
+          "skill": "RedHat Openshift Container Platform",
+          "level": "Intermedio"
+        },
+        { "skill": "Docker", "level": "Intermedio" }
+      ]
+    },
+    {
+      "category": "Version Control",
+      "skills": [
+        { "skill": "Git", "level": "Avanzado" },
+        { "skill": "GitLab", "level": "Intermedio" },
+        { "skill": "Jira & Confluence", "level": "Intermedio" }
+      ]
+    },
+    {
+      "category": "Security Automation",
+      "skills": [
+        { "skill": "JWT (JSON Web Tokens)", "level": "Intermedio" },
+        { "skill": "RedHat SSO (Keycloak)", "level": "Básico" },
+        { "skill": "RedHat Process Automation Manager", "level": "Básico" }
+      ]
+    },
+    {
+      "category": "3D Modeling",
+      "skills": [
+        { "skill": "Blender", "level": "Avanzado" },
+        { "skill": "SketchUp", "level": "Avanzado" }
+      ]
+    },
+    {
+      "category": "Photo Editing",
+      "skills": [
+        { "skill": "Gimp", "level": "Avanzado" },
+        { "skill": "Photoshop", "level": "Intermedio" }
+      ]
+    },
+    {
+      "category": "Languages",
+      "skills": [
+        { "skill": "Español", "level": "Nativo" },
+        { "skill": "Inglés", "level": "Avanzado" }
+      ]
+    }
+  ]
+}

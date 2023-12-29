@@ -1,0 +1,32 @@
+{
+  "professionalExperience": [
+    {
+      "company": "The Pegasus Group Company S.A.",
+      "position": "Desarrollador Frontend",
+      "period": "septiembre de 2021 - julio de 2023",
+      "duration": "22 meses",
+      "projects": "En mi rol en el desarrollo de software frontend para el sistema de gestión penal, utilicé Vue.js 3 usando tanto JavaScript como TypeScript para interfaces de usuario avanzadas. Implementé PrimeVue para el diseño UI, Pinia y Vuex para la gestión del estado, y Axios con JWT para conectividad segura. Contribuí al despliegue de aplicaciones en RedHat Openshift Container Platform, utilizando Git para control de versiones y Jira & Confluence para la gestión de proyectos. Integré RedHat SSO (Keycloak) y RedHat Process Automation Manager para reforzar la seguridad y eficiencia del sistema."
+    },
+    {
+      "company": "The Pegasus Group Company S.A.",
+      "position": "Desarrollador Fullstack",
+      "period": "junio de 2021 - septiembre de 2021",
+      "duration": "3 meses",
+      "projects": "Colaboré en el desarrollo de un sistema de gestión de emergencias para Onemi, integrando tecnologías como Spring Boot, JavaScript y HTML. Mi rol implicó trabajar en la gestión de datos con SQL, modelando Data Marts y desarrollando dashboards para análisis y visualización de datos."
+    },
+    {
+      "company": "Aeduc",
+      "position": "Desarrollador Fullstack",
+      "period": "septiembre de 2017 - diciembre de 2017",
+      "duration": "4 meses",
+      "projects": "Realicé mi práctica profesional en el desarrollo de software utilizando CodeIgniter y Bootstrap. Mi trabajo se centró en el diseño y desarrollo de aplicaciones web, con especial atención en el backend y la creación de interfaces de usuario efectivas y responsivas."
+    },
+    {
+      "company": "Universidad Mayor",
+      "position": "Desarrollador Frontend",
+      "period": "agosto de 2016 - diciembre de 2016",
+      "duration": "5 meses",
+      "projects": "Fui responsable del diseño y desarrollo de software para la administración de buses, utilizando HTML, CSS, JavaScript, y PHP. Este proyecto me permitió desarrollar habilidades en la optimización de procesos y en la implementación de soluciones tecnológicas para mejorar la eficiencia operativa."
+    }
+  ]
+}
