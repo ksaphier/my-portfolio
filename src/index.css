@@ -7,23 +7,45 @@ body {
   background: rgb(224, 224, 224);
   background: -moz-linear-gradient(
     90deg,
-    rgb(198, 198, 198) 0%,
+    rgb(232, 232, 232) 0%,
     rgba(255, 255, 255, 1) 50%,
-    rgb(198, 198, 198) 100%
+    rgb(232, 232, 232) 100%
   );
   background: -webkit-linear-gradient(
     90deg,
-    rgb(198, 198, 198) 0%,
+    rgb(232, 232, 232) 0%,
     rgba(255, 255, 255, 1) 50%,
-    rgb(198, 198, 198) 100%
+    rgb(232, 232, 232) 100%
   );
   background: linear-gradient(
     90deg,
-    rgb(198, 198, 198) 0%,
+    rgb(232, 232, 232) 0%,
     rgb(255, 255, 255) 50%,
-    rgb(198, 198, 198) 100%
+    rgb(232, 232, 232) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#c6c6c6",GradientType=1);
   color: rgb(30, 30, 30);
   font-family: "Montserrat", sans-serif;
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold my-4 text-gray-900; /* Larger and bolder for primary headings */
+  }
+
+  h2 {
+    @apply text-3xl font-semibold my-3 text-gray-800; /* Mid-size for secondary headings */
+  }
+
+  h3 {
+    @apply text-2xl font-medium my-2 text-gray-700; /* Smaller for tertiary headings */
+  }
+
+  p {
+    @apply text-base my-1 text-gray-600; /* Standard font size for body text */
+  }
+
+  li {
+    @apply text-base my-1 text-gray-600; /* Matching list items to body text */
+  }
 }

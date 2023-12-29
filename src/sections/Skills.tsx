@@ -3,10 +3,10 @@ import { skills } from "../data/Skills.json";
 function Skills() {
   return (
     <div className="text-center my-4">
-      <h1>Habilidades</h1>
+      <h2>Habilidades</h2>
       {skills.map((category, index) => (
         <div key={index} className="my-4">
-          <h2>{category.category}</h2>
+          <h3>{category.category}</h3>
           <ul>
             {category.skills.map((skill, skillIndex) => (
               <li key={skillIndex}>

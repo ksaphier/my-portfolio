@@ -2,7 +2,7 @@ import { professionalProfile } from "../data/ProfesionalProfile.json";
 
 function ProfessionalProfile() {
   return (
-    <div className="text-center my-4">
+    <div className="text-center my-4 lg:px-40">
       <h2>Perfil Profesional</h2>
       <p>{professionalProfile}</p>
     </div>

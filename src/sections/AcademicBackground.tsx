@@ -5,7 +5,7 @@ const { degree, institution, year } = academicBackground;
 function AcademicBackground() {
   return (
     <div className="text-center my-4">
-      <h1>Formación Académica</h1>
+      <h2>Formación Académica</h2>
       <p>
         Titulado en {degree}, {institution}, ({year}).
       </p>

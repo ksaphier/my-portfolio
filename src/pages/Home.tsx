@@ -8,10 +8,26 @@ export default function Home() {
   return (
     <>
       <Profile />
-      <ProfessionalProfile />
-      <AcademicBackground />
-      <Skills />
-      <ProfessionalExperience />
+
+      {/* For md screens and larger */}
+      <div className="hidden md:flex flex-row px-4">
+        <div className="w-1/3">
+          <Skills />
+        </div>
+        <div className="w-2/3">
+          <ProfessionalProfile />
+          <AcademicBackground />
+          <ProfessionalExperience />
+        </div>
+      </div>
+
+      {/* For smaller screens */}
+      <div className="md:hidden px-4">
+        <ProfessionalProfile />
+        <AcademicBackground />
+        <Skills />
+        <ProfessionalExperience />
+      </div>
     </>
   );
 }
