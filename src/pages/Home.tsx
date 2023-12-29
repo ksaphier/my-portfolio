@@ -8,8 +8,6 @@ export default function Home() {
   return (
     <>
       <Profile />
-
-      {/* For md screens and larger */}
       <div className="hidden md:flex flex-row px-4">
         <div className="w-1/3">
           <Skills />
@@ -20,8 +18,6 @@ export default function Home() {
           <ProfessionalExperience />
         </div>
       </div>
-
-      {/* For smaller screens */}
       <div className="md:hidden px-4">
         <ProfessionalProfile />
         <AcademicBackground />

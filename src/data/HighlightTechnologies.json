@@ -1,0 +1,25 @@
+{
+  "technologies": [
+    "Vue.js",
+    "JavaScript",
+    "TypeScript",
+    "PrimeVue",
+    "Pinia",
+    "Vuex",
+    "Axios",
+    "JWT",
+    "RedHat Openshift Container Platform",
+    "Git",
+    "Jira & Confluence",
+    "RedHat SSO (Keycloak)",
+    "RedHat Process Automation Manager",
+    "Spring Boot",
+    "HTML",
+    "SQL",
+    "Data Marts",
+    "CodeIgniter",
+    "Bootstrap",
+    "CSS",
+    "PHP"
+  ]
+}

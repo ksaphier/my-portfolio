@@ -2,7 +2,7 @@ import { skills } from "../data/Skills.json";
 
 function Skills() {
   return (
-    <div className="text-center my-4">
+    <div className="text-center my-6">
       <h2>Habilidades</h2>
       {skills.map((category, index) => (
         <div key={index} className="my-4">
