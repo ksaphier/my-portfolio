@@ -1,30 +1,65 @@
-# React + TypeScript + Vite
+# My React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio project built with React, showcasing my skills, experience, and projects.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+My React Portfolio is a single-page application that presents my professional background, skills, and projects in a clear, interactive format. It's designed to be responsive, ensuring a seamless experience on all devices.
 
-## Expanding the ESLint configuration
+### Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Interactive single-page layout
+- Responsive design for all devices
+- Showcases professional experience and skills
+- Integrates with various technologies like Tailwind CSS for styling
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+To get a local copy up and running, follow these simple steps.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Prerequisites
+
+- Node.js
+- npm or Yarn
+
+### Installing
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/ksaphier/my-react-portfolio.git
+   ```
+
+2. Install NPM packages:
+
+   ```
+   yarn
+   ```
+
+3. Run the application:
+
+   ```
+   yarn dev
+   ```
+
+## Usage
+
+Once the application is running, you can view the portfolio in your web browser at `http://localhost:5173/`.
+
+## Contributing
+
+Contributions are what make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Author
+
+- **Kevin Maximiliano Saphier Stepke**
