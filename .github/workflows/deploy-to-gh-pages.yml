@@ -21,7 +21,13 @@ jobs:
 
     - name: Build
       run: yarn build
-
+    
+    - name: Debugging Git Status
+      run: git status
+      
+    - name: Debugging Git Branches
+      run: git branch
+      
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
