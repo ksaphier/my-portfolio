@@ -64,13 +64,6 @@
       ]
     },
     {
-      "category": "Photo Editing",
-      "skills": [
-        { "skill": "Gimp", "level": "Avanzado" },
-        { "skill": "Photoshop", "level": "Intermedio" }
-      ]
-    },
-    {
       "category": "Languages",
       "skills": [
         { "skill": "Español", "level": "Nativo" },

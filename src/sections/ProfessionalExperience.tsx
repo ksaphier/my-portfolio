@@ -20,13 +20,13 @@ function highlightTechnologies(text: string) {
 function ProfessionalExperience() {
   return (
     <div>
-      <div className="text-center my-6">
+      <div className="text-center my-10 px-8">
         <h2>Experiencia Profesional</h2>
         {professionalExperience.map((experience, index) => {
           const { company, position, period, duration, projects } = experience;
 
           return (
-            <div key={index} className="my-4">
+            <div key={index} className="my-6">
               <h3>{company}</h3>
               <p>{position}</p>
               <p>

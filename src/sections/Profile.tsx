@@ -8,7 +8,7 @@ const { email, phone, location } = contact;
 
 function Profile() {
   return (
-    <div className="text-center shadow-sm mx-auto mb-4 mt-0 p-4">
+    <div className="text-center shadow-sm mx-auto mb-4 mt-0 py-4 px-8">
       <h1 className="text-gray-800">{name}</h1>
       <h3 className="text-gray-600">{title}</h3>
       <ul className="md:flex">
