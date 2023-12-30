@@ -1,3 +1,4 @@
+
 # My React Portfolio
 
 This is a personal portfolio project built with React, showcasing my skills, experience, and projects.
@@ -24,23 +25,37 @@ To get a local copy up and running, follow these simple steps.
 
 ### Installing
 
-1. Clone the repository:
+1. **Clone the repository**:
+   Use Git to clone the repository to your local machine:
 
-   ```
+   ```bash
    git clone https://github.com/ksaphier/my-react-portfolio.git
    ```
 
-2. Install NPM packages:
+2. **Navigate to the project directory**:
+   Change into the project's directory:
 
-   ```
-   yarn
+   ```bash
+   cd my-react-portfolio
    ```
 
-3. Run the application:
+3. **Install dependencies**:
+   Ensure you have Yarn installed, then run the following command to install the project dependencies:
 
+   ```bash
+   yarn install
    ```
+
+   This command reads the `package.json` file and installs all the necessary dependencies.
+
+4. **Run the application**:
+   Start the development server using Vite:
+
+   ```bash
    yarn dev
    ```
+
+   This will start the application on `http://localhost:5173/`. Open this URL in your browser to view the application.
 
 ## Usage
 
@@ -51,9 +66,24 @@ Once the application is running, you can view the portfolio in your web browser 
 Contributions are what make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch
+
+```
+git checkout -b feature/AmazingFeature
+```
+
+3. Commit your Changes
+
+```
+git commit -m 'Add some AmazingFeature'
+```
+
+4. Push to the Branch
+
+```
+git push origin feature/AmazingFeature
+```
+
 5. Open a Pull Request
 
 ## License
