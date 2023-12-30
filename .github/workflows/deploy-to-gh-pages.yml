@@ -2,8 +2,7 @@ name: Deploy React App to GitHub Pages
 
 on:
   push:
-    branches: [ deploy ]  # Trigger the action on pushes to the 'deploy' branch
-
+    branches: [ deploy ]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -15,16 +14,23 @@ jobs:
     - name: Install Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: '21.5.0'  # Your Node.js version
+        node-version: '21.5.0'
 
     - name: Install Dependencies
       run: yarn install
 
     - name: Build
       run: yarn build
-
+    
+    - name: Debugging Git Status
+      run: git status
+      
+    - name: Debugging Git Branches
+      run: git branch
+      
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
-        branch: gh-pages  # The branch the action should deploy to.
-        folder: build     # The folder the action should deploy.
+        branch: gh-pages
+        folder: dist
+        token: ${{ secrets.DEPLOY_TOKEN }}
