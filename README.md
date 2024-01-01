@@ -55,11 +55,7 @@ To get a local copy up and running, follow these simple steps.
    yarn dev
    ```
 
-   This will start the application on `http://localhost:5173/`. Open this URL in your browser to view the application.
-
-## Usage
-
-Once the application is running, you can view the portfolio in your web browser at `http://localhost:5173/`.
+   This will start the application on `http://localhost:5173/my-portfolio/`. Open this URL in your browser to view the application.
 
 ## Contributing
 
@@ -68,27 +64,27 @@ Contributions are what make the open-source community an amazing place to learn,
 1. Fork the Project
 2. Create your Feature Branch
 
-```
-git checkout -b feature/AmazingFeature
-```
+   ```
+   git checkout -b feature/AmazingFeature
+   ```
 
 3. Commit your Changes
 
-```
-git commit -m 'Add some AmazingFeature'
-```
+   ```
+   git commit -m 'Add some AmazingFeature'
+   ```
 
 4. Push to the Branch
 
-```
-git push origin feature/AmazingFeature
-```
+   ```
+   git push origin feature/AmazingFeature
+   ```
 
 5. Open a Pull Request
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License.
 
 ## Author
 
