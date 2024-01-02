@@ -1,4 +1,4 @@
-import { contactInformation } from "../data/ProfileContact.json";
+import { contactInformation } from "../data/Data.json";
 import { IoMailOutline } from "react-icons/io5";
 import { IoPhonePortraitOutline } from "react-icons/io5";
 import { IoLocationOutline } from "react-icons/io5";

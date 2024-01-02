@@ -1,4 +1,5 @@
-import { academicBackground } from "../data/AcademicBackground.json";
+import { academicBackground } from "../data/Data.json";
+// import CursosCertificaciones from "./CursosCertificaciones";
 
 const { degree, institution, year } = academicBackground;
 
@@ -9,6 +10,7 @@ function AcademicBackground() {
       <p>
         Titulado en {degree}, {institution}, ({year}).
       </p>
+      {/* <CursosCertificaciones /> */}
     </div>
   );
 }
