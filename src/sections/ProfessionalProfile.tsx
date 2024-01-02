@@ -1,4 +1,4 @@
-import { professionalProfile } from "../data/ProfesionalProfile.json";
+import { professionalProfile } from "../data/Data.json";
 
 function ProfessionalProfile() {
   return (

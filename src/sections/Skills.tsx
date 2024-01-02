@@ -1,10 +1,9 @@
-import React from "react";
 import SkillCircle from "../components/SkillCircle";
-import { skills as skillsData } from "../data/Skills.json";
+import { skills as skillsData } from "../data/Data.json";
 
 interface Skill {
   skill: string;
-  level: "Básico" | "Intermedio" | "Avanzado";
+  level: "Elementary" | "Intermediate" | "Advanced" | "Native" | string;
 }
 
 interface SkillCategory {

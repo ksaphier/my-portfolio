@@ -1,7 +1,7 @@
 import React from "react";
 
 interface SkillCircleProps {
-  level: "Básico" | "Intermedio" | "Avanzado" | string;
+  level: "Elementary" | "Intermediate" | "Advanced" | string;
 }
 
 const SkillCircle: React.FC<SkillCircleProps> = ({ level }) => {
@@ -11,11 +11,11 @@ const SkillCircle: React.FC<SkillCircleProps> = ({ level }) => {
   // Calculate the stroke dash offset based on the skill level
   const getStrokeDashOffset = (level: string): number => {
     switch (level) {
-      case "Básico":
+      case "Elementary":
         return circumference * (1 - 0.4); // 40% filled
-      case "Intermedio":
+      case "Intermediate":
         return circumference * (1 - 0.6); // 60% filled
-      case "Avanzado":
+      case "Advanced":
         return circumference * (1 - 0.8); // 80% filled
       default:
         return 0; // 100% filled for any other level
@@ -24,11 +24,11 @@ const SkillCircle: React.FC<SkillCircleProps> = ({ level }) => {
 
   const getColor = (level: string): string => {
     switch (level) {
-      case "Básico":
+      case "Elementary":
         return "rgb(244 63 94)";
-      case "Intermedio":
+      case "Intermediate":
         return "rgb(20 184 166)";
-      case "Avanzado":
+      case "Advanced":
         return "rgb(99 102 241)";
       default:
         return "rgb(234 179 8)";

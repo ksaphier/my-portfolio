@@ -1,4 +1,4 @@
-import { professionalExperience } from "../data/ProfessionalExperience.json";
+import { professionalExperience } from "../data/Data.json";
 import { technologies } from "../data/HighlightTechnologies.json";
 
 function highlightTechnologies(text: string) {
