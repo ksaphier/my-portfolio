@@ -8,7 +8,7 @@ function highlightTechnologies(text: string) {
 
   return parts.map((part, index) =>
     technologies.includes(part) ? (
-      <span key={index} className="font-bold">
+      <span key={index} className="font-bold text-rose-800">
         {part}
       </span>
     ) : (

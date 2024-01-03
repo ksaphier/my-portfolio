@@ -20,10 +20,12 @@ function Skills() {
           <h3>{category.category}</h3>
           <ul>
             {category.skills.map((skill: Skill, skillIndex: number) => (
-              <li key={skillIndex}>
-                {skill.skill}
-                <div className="px-10 md:px-5 lg:px-24">
-                  <SkillLevelIndicator level={skill.level} />
+              <li key={skillIndex} className="relative my-4">
+                <span className="z-10 relative">{skill.skill}</span>
+                <div className="absolute inset-0 flex justify-center">
+                  <div className="mt-2">
+                    <SkillLevelIndicator level={skill.level} />
+                  </div>
                 </div>
               </li>
             ))}
