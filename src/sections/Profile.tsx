@@ -12,8 +12,8 @@ const { email, phone, location, github, linkedin } = contact;
 function Profile() {
   const liClasses =
     "flex-1 text-rose-600 hover:text-gray-100 hover:bg-rose-500 hover:shadow-sm py-2 px-4 rounded-xl flex mx-auto justify-center items-center";
-  
-    const copyEmailToClipboard = () => {
+
+  const copyEmailToClipboard = () => {
     navigator.clipboard.writeText(email);
     alert("Email copied to clipboard!");
   };
@@ -22,7 +22,20 @@ function Profile() {
     navigator.clipboard.writeText(phone);
     alert("Phone number copied to clipboard!");
   };
-  
+
+  const handleDownload = () => {
+    const downloadButton = document.getElementById("downloadButton");
+    if (downloadButton) {
+      downloadButton.style.display = "none";
+
+      window.print();
+
+      setTimeout(() => {
+        downloadButton.style.display = "flex";
+      }, 2000);
+    }
+  };
+
   return (
     <div className="text-center shadow-sm mx-auto mt-0 py-4 px-8">
       <h1 className="text-gray-800 gradient-text">{name}</h1>
@@ -63,7 +76,7 @@ function Profile() {
           <IoLogoLinkedin className="text-2xl mr-2" />
           {linkedin}
         </a>
-        <a className={liClasses}>
+        <a id="downloadButton" className={liClasses} onClick={handleDownload}>
           <IoDownloadOutline className="text-2xl mr-2" />
           Download CV
         </a>
