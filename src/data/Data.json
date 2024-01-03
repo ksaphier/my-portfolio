@@ -57,8 +57,8 @@
       "category": "Frontend",
       "skills": [
         { "skill": "JavaScript", "level": "Advanced" },
-        { "skill": "Vue.js", "level": "Advanced" },
         { "skill": "TypeScript", "level": "Intermediate" },
+        { "skill": "Vue.js", "level": "Advanced" },
         { "skill": "React", "level": "Intermediate" },
         { "skill": "PrimeVue", "level": "Intermediate" },
         { "skill": "Axios", "level": "Intermediate" }

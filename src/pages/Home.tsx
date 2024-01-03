@@ -8,21 +8,15 @@ export default function Home() {
   return (
     <>
       <Profile />
-      <div className="hidden md:flex flex-row px-4">
-        <div className="w-1/3">
-          <Skills />
-        </div>
-        <div className="w-2/3">
+      <div className="md:flex flex-row px-4">
+        <div className="md:w-2/3 md:order-2">
           <ProfessionalProfile />
           <AcademicBackground />
           <ProfessionalExperience />
         </div>
-      </div>
-      <div className="md:hidden px-4">
-        <ProfessionalProfile />
-        <AcademicBackground />
-        <Skills />
-        <ProfessionalExperience />
+        <div className="md:w-1/3 md:order-1">
+          <Skills />
+        </div>
       </div>
     </>
   );

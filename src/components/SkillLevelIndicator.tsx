@@ -28,7 +28,7 @@ function SkillLevelIndicator(props: SkillLevelIndicatorProps) {
         <IoRemove
           key={index}
           className={`h-8 w-1/5 ${
-            index < numOfActiveLines ? "text-rose-500" : "text-gray-300"
+            index < numOfActiveLines ? "text-rose-700" : "text-gray-300"
           }`}
         />
       ))}

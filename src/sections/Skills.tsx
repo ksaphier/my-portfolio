@@ -13,7 +13,7 @@ interface SkillCategory {
 
 function Skills() {
   return (
-    <div className="text-center">
+    <div className="text-center my-10 px-8">
       <h2 className="gradient-text">Habilidades</h2>
       {skillsData.map((category: SkillCategory, index: number) => (
         <div className="my-4" key={index}>
