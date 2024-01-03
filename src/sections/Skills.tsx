@@ -1,3 +1,4 @@
+import SkillLevelIndicator from "../components/SkillLevelIndicator";
 import { skills as skillsData } from "../data/Data.json";
 
 interface Skill {
@@ -13,18 +14,17 @@ interface SkillCategory {
 function Skills() {
   return (
     <div className="text-center">
-      <h2>Habilidades</h2>
+      <h2 className="gradient-text">Habilidades</h2>
       {skillsData.map((category: SkillCategory, index: number) => (
-        <div key={index} className="text-">
-          <h3 className="">{category.category}</h3>
-          <ul className="">
+        <div className="my-4" key={index}>
+          <h3>{category.category}</h3>
+          <ul>
             {category.skills.map((skill: Skill, skillIndex: number) => (
-              <li key={skillIndex} className="flex">
-                <span className="mx-auto flex">
-                  <span className="my-auto">
-                    {skill.skill} - {skill.level}
-                  </span>
-                </span>
+              <li key={skillIndex}>
+                {skill.skill}
+                <div className="px-10 md:px-5 lg:px-24">
+                  <SkillLevelIndicator level={skill.level} />
+                </div>
               </li>
             ))}
           </ul>

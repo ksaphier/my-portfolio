@@ -21,7 +21,7 @@ function ProfessionalExperience() {
   return (
     <div>
       <div className="text-center my-10 px-8">
-        <h2>Experiencia Profesional</h2>
+        <h2 className="gradient-text">Experiencia Profesional</h2>
         {professionalExperience.map((experience, index) => {
           const { company, position, period, duration, projects } = experience;
 
