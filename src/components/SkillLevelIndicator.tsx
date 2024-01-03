@@ -1,4 +1,4 @@
-import { IoEllipseSharp } from "react-icons/io5";
+import { IoRemove } from "react-icons/io5";
 
 const getNumOfActiveLines = (level: string): number => {
   switch (level) {
@@ -25,10 +25,10 @@ function SkillLevelIndicator(props: SkillLevelIndicatorProps) {
   return (
     <div className="flex">
       {[...Array(5)].map((_, index) => (
-        <IoEllipseSharp
+        <IoRemove
           key={index}
-          className={`rotate-45 w-1/5 ${
-            index < numOfActiveLines ? "text-sky-800" : "text-gray-300"
+          className={`h-8 w-1/5 ${
+            index < numOfActiveLines ? "text-rose-500" : "text-gray-300"
           }`}
         />
       ))}
