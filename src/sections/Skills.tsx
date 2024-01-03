@@ -1,4 +1,3 @@
-import SkillCircle from "../components/SkillCircle";
 import { skills as skillsData } from "../data/Data.json";
 
 interface Skill {
@@ -11,7 +10,7 @@ interface SkillCategory {
   skills: Skill[];
 }
 
-const Skills: React.FC = () => {
+function Skills() {
   return (
     <div className="text-center">
       <h2>Habilidades</h2>
@@ -22,8 +21,9 @@ const Skills: React.FC = () => {
             {category.skills.map((skill: Skill, skillIndex: number) => (
               <li key={skillIndex} className="flex">
                 <span className="mx-auto flex">
-                  <span className="my-auto">{skill.skill}</span>
-                  <SkillCircle level={skill.level} />
+                  <span className="my-auto">
+                    {skill.skill} - {skill.level}
+                  </span>
                 </span>
               </li>
             ))}
@@ -32,6 +32,6 @@ const Skills: React.FC = () => {
       ))}
     </div>
   );
-};
+}
 
 export default Skills;
