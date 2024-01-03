@@ -46,7 +46,7 @@ function Profile() {
           {location}
         </a>
         <a
-          className={liClasses + ` hidden`}
+          className={liClasses}
           href="https://github.com/ksaphier"
           target="_blank"
           rel="noopener noreferrer"
@@ -55,7 +55,7 @@ function Profile() {
           {github}
         </a>
         <a
-          className={liClasses + ` hidden`}
+          className={liClasses}
           href="https://linkedin.com/in/kevin-saphier"
           target="_blank"
           rel="noopener noreferrer"
@@ -63,7 +63,7 @@ function Profile() {
           <IoLogoLinkedin className="text-2xl mr-2" />
           {linkedin}
         </a>
-        <a className={liClasses + ` hidden`}>
+        <a className={liClasses}>
           <IoDownloadOutline className="text-2xl mr-2" />
           Download CV
         </a>
