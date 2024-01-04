@@ -13,14 +13,14 @@ interface SkillCategory {
 
 function Skills() {
   return (
-    <div className="text-center my-10 px-8">
+    <div className="text-center my-10 lg:px-8">
       <h2 className="gradient-text">Habilidades</h2>
       {skillsData.map((category: SkillCategory, index: number) => (
-        <div className="my-4" key={index}>
-          <h3>{category.category}</h3>
+        <div className="my-8" key={index}>
+          <h3 className="my-0">{category.category}</h3>
           <ul>
             {category.skills.map((skill: Skill, skillIndex: number) => (
-              <li key={skillIndex} className="relative my-4">
+              <li key={skillIndex} className="relative mb-4">
                 <span className="z-10 relative">{skill.skill}</span>
                 <div className="absolute inset-0 flex justify-center">
                   <div className="mt-2">
