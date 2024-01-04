@@ -62,8 +62,7 @@
         { "skill": "TypeScript", "level": "Intermediate" },
         { "skill": "Vue.js", "level": "Advanced" },
         { "skill": "React", "level": "Intermediate" },
-        { "skill": "PrimeVue", "level": "Intermediate" },
-        { "skill": "Axios", "level": "Intermediate" }
+        { "skill": "PrimeVue", "level": "Intermediate" }
       ]
     },
     {
@@ -71,7 +70,6 @@
       "skills": [
         { "skill": "PHP", "level": "Intermediate" },
         { "skill": "Java", "level": "Intermediate" },
-        { "skill": "C++", "level": "Intermediate" },
         { "skill": "Spring Boot", "level": "Intermediate" }
       ]
     },
@@ -88,9 +86,9 @@
       "skills": [
         {
           "skill": "RedHat Openshift Container Platform",
-          "level": "Intermediate"
+          "level": "Elementary"
         },
-        { "skill": "Docker", "level": "Intermediate" }
+        { "skill": "Docker", "level": "Elementary" }
       ]
     },
     {
