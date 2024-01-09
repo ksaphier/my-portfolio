@@ -68,9 +68,9 @@
     {
       "category": "Backend",
       "skills": [
-        { "skill": "PHP", "level": "Intermediate" },
-        { "skill": "Java", "level": "Intermediate" },
-        { "skill": "Spring Boot", "level": "Intermediate" }
+        { "skill": "PHP", "level": "Elementary" },
+        { "skill": "Java", "level": "Elementary" },
+        { "skill": "Spring Boot", "level": "Elementary" }
       ]
     },
     {

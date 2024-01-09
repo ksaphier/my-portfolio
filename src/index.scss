@@ -64,3 +64,22 @@ body {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+
+// styles.scss
+$color-accent: rgb(255, 145, 0);
+
+.accent-text {
+  color: $color-accent;
+}
+
+.accent-text-lighter {
+  color: lighten($color-accent, 20%);
+}
+
+.accent-text-darker {
+  color: darken($color-accent, 10%);
+}
+
+.accent-text-darkest {
+  color: darken($color-accent, 20%);
+}

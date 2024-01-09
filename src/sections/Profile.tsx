@@ -11,7 +11,7 @@ const { email, phone, location, github, linkedin } = contact;
 
 function Profile() {
   const liClasses =
-    "flex-1 text-rose-600 hover:text-gray-100 hover:bg-rose-500 hover:shadow-sm py-2 px-4 rounded-xl flex mx-auto justify-center items-center";
+    "flex-1 accent-text py-2 px-4 rounded-xl flex mx-auto justify-center items-center";
 
   const copyEmailToClipboard = () => {
     navigator.clipboard.writeText(email);
