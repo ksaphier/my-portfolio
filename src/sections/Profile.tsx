@@ -77,7 +77,7 @@ function Profile() {
           {linkedin}
         </a>
         <a
-          href="/public/CV-Kevin_Saphier.pdf"
+          href="/my-portfolio/public/CV-Kevin_Saphier.pdf"
           download="CV-Kevin_Saphier.pdf"
           className={liClasses}
         >
