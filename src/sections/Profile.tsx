@@ -23,18 +23,18 @@ function Profile() {
     alert("Phone number copied to clipboard!");
   };
 
-  const handleDownload = () => {
-    const downloadButton = document.getElementById("downloadButton");
-    if (downloadButton) {
-      downloadButton.style.display = "none";
+  // const handleDownload = () => {
+  //   const downloadButton = document.getElementById("downloadButton");
+  //   if (downloadButton) {
+  //     downloadButton.style.display = "none";
 
-      window.print();
+  //     window.print();
 
-      setTimeout(() => {
-        downloadButton.style.display = "flex";
-      }, 2000);
-    }
-  };
+  //     setTimeout(() => {
+  //       downloadButton.style.display = "flex";
+  //     }, 2000);
+  //   }
+  // };
 
   return (
     <div className="text-center shadow-sm mx-auto mt-0 py-4 px-8">
@@ -76,9 +76,13 @@ function Profile() {
           <IoLogoLinkedin className="text-2xl mr-2" />
           {linkedin}
         </a>
-        <a id="downloadButton" className={liClasses} onClick={handleDownload}>
+        <a
+          href="/public/CV-Kevin_Saphier.pdf"
+          download="CV-Kevin_Saphier.pdf"
+          className={liClasses}
+        >
           <IoDownloadOutline className="text-2xl mr-2" />
-          Download CV
+          Descargar CV
         </a>
       </div>
     </div>
