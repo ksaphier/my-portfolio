@@ -77,7 +77,7 @@ function Profile() {
           {linkedin}
         </a>
         <a
-          href="https://ksaphier.github.io/my-portfolio/CV-Kevin_Saphier.pdf"
+          href="https://drive.google.com/file/d/1zzbuDF75KpPIl1QAWdbKewEL1Y_zcKCo/view?usp=sharing"
           download="CV-Kevin_Saphier.pdf"
           className={liClasses}
         >
