@@ -26,6 +26,13 @@
   },
   "professionalExperience": [
     {
+      "company": "Apiux Tecnología",
+      "position": "Desarrollador Fullstack",
+      "period": "enero de 2024 - actualidad",
+      "duration": "En curso",
+      "projects": "Contribuyo al desarrollo de una aplicación esencial para el Servicio de Impuestos Internos de Chile, empleando Spring Boot y Vue.js para una solución fullstack. A pesar de utilizar Jira, destacamos por nuestra agilidad, definiendo y desarrollando nuevas funcionalidades en cuestión de horas, logrando integraciones completas de frontend y backend en el mismo día. La base de datos Oracle respalda nuestra gestión de datos, mientras que Git facilita un eficiente control de versiones."
+    },
+    {
       "company": "The Pegasus Group Company S.A.",
       "position": "Desarrollador Frontend",
       "period": "septiembre de 2021 - julio de 2023",
@@ -45,14 +52,14 @@
       "period": "septiembre de 2017 - diciembre de 2017",
       "duration": "4 meses",
       "projects": "Realicé mi práctica profesional en el desarrollo de software utilizando CodeIgniter y Bootstrap. Mi trabajo se centró en el diseño y desarrollo de aplicaciones web, con especial atención en el backend y la creación de interfaces de usuario efectivas y responsivas."
-    }
-//    {
-//      "company": "Universidad Mayor",
- //     "position": "Desarrollador Frontend",
- //     "period": "agosto de 2016 - diciembre de 2016",
- //     "duration": "5 meses",
-   //   "projects": "Fui responsable del diseño y desarrollo de software para la administración de buses, utilizando HTML, CSS, JavaScript, y PHP. Este proyecto me permitió desarrollar habilidades en la optimización de procesos y en la implementación de soluciones tecnológicas para mejorar la eficiencia operativa."
-//    }
+    },
+   {
+     "company": "Universidad Mayor",
+     "position": "Desarrollador Frontend",
+     "period": "agosto de 2016 - diciembre de 2016",
+     "duration": "5 meses",
+     "projects": "Fui responsable del diseño y desarrollo de software para la administración de buses, utilizando HTML, CSS, JavaScript, y PHP. Este proyecto me permitió desarrollar habilidades en la optimización de procesos y en la implementación de soluciones tecnológicas para mejorar la eficiencia operativa."
+   }
   ],
   "skills": [
     {
@@ -96,7 +103,8 @@
       "skills": [
         { "skill": "Git", "level": "Advanced" },
         { "skill": "GitLab", "level": "Intermediate" },
-        { "skill": "Jira & Confluence", "level": "Intermediate" }
+        { "skill": "Jira", "level": "Intermediate" },
+        { "skill": "Confluence", "level": "Intermediate" }
       ]
     },
     {
