@@ -1,5 +1,7 @@
 {
   "technologies": [
+    "Oracle",
+    "Jira",
     "Vue.js",
     "JavaScript",
     "TypeScript",
@@ -10,7 +12,7 @@
     "JWT",
     "RedHat Openshift Container Platform",
     "Git",
-    "Jira & Confluence",
+    "Confluence",
     "RedHat SSO (Keycloak)",
     "RedHat Process Automation Manager",
     "Spring Boot",
